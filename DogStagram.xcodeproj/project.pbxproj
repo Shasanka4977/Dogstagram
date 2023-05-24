@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,10 +17,17 @@
 		8E80A5CD25A7FBE000F85D41 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E80A5CB25A7FBE000F85D41 /* CollectionTableViewCell.xib */; };
 		8E80A5D125A7FC3800F85D41 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80A5CF25A7FC3800F85D41 /* MyCollectionViewCell.swift */; };
 		8E80A5D225A7FC3800F85D41 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E80A5D025A7FC3800F85D41 /* MyCollectionViewCell.xib */; };
+		C0B71A842A1DDB6700A56DB3 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A832A1DDB6700A56DB3 /* AnimalModel.swift */; };
+		C0B71A8E2A1DDE4C00A56DB3 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A8D2A1DDE4C00A56DB3 /* UITableView.swift */; };
+		C0B71A922A1DDEAE00A56DB3 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A912A1DDEAE00A56DB3 /* UITableViewCell.swift */; };
+		C0B71A962A1DE8AC00A56DB3 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A952A1DE8AC00A56DB3 /* UICollectionViewCell.swift */; };
+		C0B71A982A1DE97200A56DB3 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A972A1DE97200A56DB3 /* UICollectionView.swift */; };
+		C0B71A9F2A1E150200A56DB3 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71A9E2A1E150200A56DB3 /* FullScreenViewController.swift */; };
+		C0B71AA22A1E189700A56DB3 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71AA12A1E189700A56DB3 /* AppUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E80A5B025A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DogStagram(CollectionViewInTableViewCell).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E80A5B025A7FA8B00F85D41 /* DogStagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogStagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E80A5B325A7FA8B00F85D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E80A5B525A7FA8B00F85D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E80A5B725A7FA8B00F85D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +39,13 @@
 		8E80A5CB25A7FBE000F85D41 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
 		8E80A5CF25A7FC3800F85D41 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E80A5D025A7FC3800F85D41 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		C0B71A832A1DDB6700A56DB3 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		C0B71A8D2A1DDE4C00A56DB3 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		C0B71A912A1DDEAE00A56DB3 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		C0B71A952A1DE8AC00A56DB3 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		C0B71A972A1DE97200A56DB3 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		C0B71A9E2A1E150200A56DB3 /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
+		C0B71AA12A1E189700A56DB3 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,7 @@
 		8E80A5B125A7FA8B00F85D41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E80A5B025A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell).app */,
+				8E80A5B025A7FA8B00F85D41 /* DogStagram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,14 +78,12 @@
 		8E80A5B225A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell) */ = {
 			isa = PBXGroup;
 			children = (
-				8E80A5C925A7FB7000F85D41 /* Collection Cell */,
-				8E80A5C825A7FB6800F85D41 /* Table Cell */,
-				8E80A5B325A7FA8B00F85D41 /* AppDelegate.swift */,
-				8E80A5B525A7FA8B00F85D41 /* SceneDelegate.swift */,
-				8E80A5B725A7FA8B00F85D41 /* ViewController.swift */,
-				8E80A5B925A7FA8B00F85D41 /* Main.storyboard */,
-				8E80A5BC25A7FA8B00F85D41 /* Assets.xcassets */,
-				8E80A5BE25A7FA8B00F85D41 /* LaunchScreen.storyboard */,
+				C0B71AA02A1E187700A56DB3 /* Helper */,
+				C0B71A8B2A1DDE1F00A56DB3 /* Extensions */,
+				C0B71A882A1DDD1E00A56DB3 /* View */,
+				C0B71A822A1DDABD00A56DB3 /* Models */,
+				C0B71A812A1DDA8900A56DB3 /* Core */,
+				C0B71A7C2A1DD75400A56DB3 /* Resources */,
 				8E80A5C125A7FA8B00F85D41 /* Info.plist */,
 			);
 			path = "DogStagram(CollectionViewInTableViewCell)";
@@ -95,12 +107,109 @@
 			path = "Collection Cell";
 			sourceTree = "<group>";
 		};
+		C0B71A7C2A1DD75400A56DB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71A7E2A1DD76900A56DB3 /* Images */,
+				C0B71A7D2A1DD75D00A56DB3 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0B71A7D2A1DD75D00A56DB3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8E80A5B925A7FA8B00F85D41 /* Main.storyboard */,
+				8E80A5BE25A7FA8B00F85D41 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C0B71A7E2A1DD76900A56DB3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E80A5BC25A7FA8B00F85D41 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C0B71A812A1DDA8900A56DB3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8E80A5B325A7FA8B00F85D41 /* AppDelegate.swift */,
+				8E80A5B525A7FA8B00F85D41 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C0B71A822A1DDABD00A56DB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71A832A1DDB6700A56DB3 /* AnimalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0B71A882A1DDD1E00A56DB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71A8A2A1DDD3A00A56DB3 /* ReuseCells */,
+				C0B71A892A1DDD2E00A56DB3 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0B71A892A1DDD2E00A56DB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E80A5B725A7FA8B00F85D41 /* ViewController.swift */,
+				C0B71A9E2A1E150200A56DB3 /* FullScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0B71A8A2A1DDD3A00A56DB3 /* ReuseCells */ = {
+			isa = PBXGroup;
+			children = (
+				8E80A5C925A7FB7000F85D41 /* Collection Cell */,
+				8E80A5C825A7FB6800F85D41 /* Table Cell */,
+			);
+			path = ReuseCells;
+			sourceTree = "<group>";
+		};
+		C0B71A8B2A1DDE1F00A56DB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71A8C2A1DDE2C00A56DB3 /* Uikit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0B71A8C2A1DDE2C00A56DB3 /* Uikit */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71A8D2A1DDE4C00A56DB3 /* UITableView.swift */,
+				C0B71A912A1DDEAE00A56DB3 /* UITableViewCell.swift */,
+				C0B71A972A1DE97200A56DB3 /* UICollectionView.swift */,
+				C0B71A952A1DE8AC00A56DB3 /* UICollectionViewCell.swift */,
+			);
+			path = Uikit;
+			sourceTree = "<group>";
+		};
+		C0B71AA02A1E187700A56DB3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71AA12A1E189700A56DB3 /* AppUtils.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E80A5AF25A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell) */ = {
+		8E80A5AF25A7FA8B00F85D41 /* DogStagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E80A5C425A7FA8B00F85D41 /* Build configuration list for PBXNativeTarget "DogStagram(CollectionViewInTableViewCell)" */;
+			buildConfigurationList = 8E80A5C425A7FA8B00F85D41 /* Build configuration list for PBXNativeTarget "DogStagram" */;
 			buildPhases = (
 				8E80A5AC25A7FA8B00F85D41 /* Sources */,
 				8E80A5AD25A7FA8B00F85D41 /* Frameworks */,
@@ -110,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = "DogStagram(CollectionViewInTableViewCell)";
+			name = DogStagram;
 			productName = "DogStagram(CollectionViewInTableViewCell)";
-			productReference = 8E80A5B025A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell).app */;
+			productReference = 8E80A5B025A7FA8B00F85D41 /* DogStagram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,8 +238,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E80A5AB25A7FA8B00F85D41 /* Build configuration list for PBXProject "DogStagram(CollectionViewInTableViewCell)" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 8E80A5AB25A7FA8B00F85D41 /* Build configuration list for PBXProject "DogStagram" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -142,7 +251,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E80A5AF25A7FA8B00F85D41 /* DogStagram(CollectionViewInTableViewCell) */,
+				8E80A5AF25A7FA8B00F85D41 /* DogStagram */,
 			);
 		};
 /* End PBXProject section */
@@ -168,10 +277,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E80A5B825A7FA8B00F85D41 /* ViewController.swift in Sources */,
+				C0B71A842A1DDB6700A56DB3 /* AnimalModel.swift in Sources */,
+				C0B71A962A1DE8AC00A56DB3 /* UICollectionViewCell.swift in Sources */,
+				C0B71AA22A1E189700A56DB3 /* AppUtils.swift in Sources */,
 				8E80A5D125A7FC3800F85D41 /* MyCollectionViewCell.swift in Sources */,
 				8E80A5B425A7FA8B00F85D41 /* AppDelegate.swift in Sources */,
+				C0B71A922A1DDEAE00A56DB3 /* UITableViewCell.swift in Sources */,
 				8E80A5B625A7FA8B00F85D41 /* SceneDelegate.swift in Sources */,
+				C0B71A8E2A1DDE4C00A56DB3 /* UITableView.swift in Sources */,
 				8E80A5CC25A7FBE000F85D41 /* CollectionTableViewCell.swift in Sources */,
+				C0B71A9F2A1E150200A56DB3 /* FullScreenViewController.swift in Sources */,
+				C0B71A982A1DE97200A56DB3 /* UICollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,16 +435,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDPZUN2TN8;
+				DEVELOPMENT_TEAM = 9J675M47FM;
 				INFOPLIST_FILE = "DogStagram(CollectionViewInTableViewCell)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DogStagram;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "srinivas.DogStagram-CollectionViewInTableViewCell-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shasanka.DogStagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,23 +458,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDPZUN2TN8;
+				DEVELOPMENT_TEAM = 9J675M47FM;
 				INFOPLIST_FILE = "DogStagram(CollectionViewInTableViewCell)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DogStagram;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "srinivas.DogStagram-CollectionViewInTableViewCell-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shasanka.DogStagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E80A5AB25A7FA8B00F85D41 /* Build configuration list for PBXProject "DogStagram(CollectionViewInTableViewCell)" */ = {
+		8E80A5AB25A7FA8B00F85D41 /* Build configuration list for PBXProject "DogStagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E80A5C225A7FA8B00F85D41 /* Debug */,
@@ -363,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E80A5C425A7FA8B00F85D41 /* Build configuration list for PBXNativeTarget "DogStagram(CollectionViewInTableViewCell)" */ = {
+		8E80A5C425A7FA8B00F85D41 /* Build configuration list for PBXNativeTarget "DogStagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E80A5C525A7FA8B00F85D41 /* Debug */,

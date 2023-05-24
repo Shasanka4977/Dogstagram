@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DogStagram(CollectionViewInTableViewCell)
+//  DogStagram
 //
-//  Created by Jovial Software on 08/01/21.
+//  Created by Shasanka Sahoo on 08/01/21.
 //
 
 import UIKit

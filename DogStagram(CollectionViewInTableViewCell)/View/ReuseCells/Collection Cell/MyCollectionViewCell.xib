@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="MyCollectionViewCell" id="gTV-IL-0wX" customClass="MyCollectionViewCell" customModule="DogStagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="256"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="234" height="256"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExH-6g-Xpa">
+                        <rect key="frame" x="0.0" y="230" width="234" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="5ac-Gw-02M"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="oa1-tt-bKh">
+                        <rect key="frame" x="17" y="10" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="NNH-k3-u6Q"/>
+                            <constraint firstAttribute="width" constant="200" id="ogv-nC-U9j"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ExH-6g-Xpa" secondAttribute="trailing" id="4wi-uF-e2p"/>
+                <constraint firstItem="ExH-6g-Xpa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UMd-Dz-9ln"/>
+                <constraint firstItem="oa1-tt-bKh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Whl-ed-Onc"/>
+                <constraint firstAttribute="bottom" secondItem="ExH-6g-Xpa" secondAttribute="bottom" constant="8" id="XgH-QK-xUw"/>
+                <constraint firstItem="oa1-tt-bKh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="hnD-iE-oFr"/>
+            </constraints>
+            <size key="customSize" width="234" height="256"/>
+            <connections>
+                <outlet property="myImageView" destination="oa1-tt-bKh" id="jas-AA-VsI"/>
+                <outlet property="myLabel" destination="ExH-6g-Xpa" id="ahF-GK-naq"/>
+            </connections>
+            <point key="canvasLocation" x="-324.63768115942031" y="15.401785714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Gradient" width="256" height="256"/>
+    </resources>
+</document>
